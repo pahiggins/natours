@@ -25,6 +25,11 @@
         color: $color-primary;
     }
 
+    &--primary {
+        background-color: $color-primary;
+        color: $color-white;
+    }
+
     &--animated {
         animation: moveInBottom .3s ease-in .7s;
         animation-fill-mode: backwards;
