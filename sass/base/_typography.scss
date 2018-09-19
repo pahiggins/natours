@@ -31,10 +31,14 @@ body {
 }
 
 .heading-secondary {
+    // background-image: linear-gradient(
+    //     to right,
+    //     rgba($color-primary-light, 0.8),
+    //     rgba($color-primary-dark, 0.8));
     background-image: linear-gradient(
         to right,
-        rgba($color-primary-light, 0.8),
-        rgba($color-primary-dark, 0.8));
+        lighten($color-primary, 2%),
+        darken($color-primary, 2%));
     color: transparent;
     display: inline-block;
     font-size: 3.5rem;
