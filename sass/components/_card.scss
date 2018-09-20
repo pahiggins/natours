@@ -30,7 +30,7 @@
             }
 
             &-2 {
-                background-image: linear-gradient(to right bottom, $color-primary, $color-primary); // Change this back!
+                background-image: linear-gradient(to right bottom, lighten($color-primary, 5%), darken($color-primary, 5%)); // Change this back!
             }
 
             &-3 {
