@@ -22,10 +22,10 @@
             <div class="navigation__background">&nbsp;</div>
             <nav class="navigation__nav">
                 <ul class="navigation__list">
-                    <li class="navigation__item"><a href="#" class="navigation__link">About</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link">Services</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link">Testimonials</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link">Contact Us</a></li>
+                    <li class="navigation__item"><a href="#about" class="navigation__link">About</a></li>
+                    <li class="navigation__item"><a href="#tours" class="navigation__link">Services</a></li>
+                    <li class="navigation__item"><a href="#stories" class="navigation__link">Testimonials</a></li>
+                    <li class="navigation__item"><a href="#book" class="navigation__link">Contact Us</a></li>
                 </ul>
             </nav>
         </div>
@@ -44,7 +44,7 @@
         </header>
 
         <main>
-            <section class="section-about">
+            <section class="section-about" id="about">
                 <div class="u-center-text u-margin-bottom-large">
                     <h2 class="heading-secondary">
                         Exciting tours for adventurous people
@@ -106,7 +106,7 @@
                 </div>
             </section>
 
-            <section class="section-tours">
+            <section class="section-tours" id="tours">
                 <div class="u-center-text u-margin-bottom-large">
                     <h2 class="heading-secondary">
                         Most popular tours
@@ -140,7 +140,7 @@
                                         <p class="card__price-only">Only</p>
                                         <p class="card__price-value">£297</p>
                                     </div>
-                                    <a href="#" class="btn btn--white">Book now!</a>
+                                    <a href="#popup" class="btn btn--white">Book now!</a>
                                 </div>
                             </div>
                         </div>
@@ -172,7 +172,7 @@
                                         <p class="card__price-only">Only</p>
                                         <p class="card__price-value">£497</p>
                                     </div>
-                                    <a href="#" class="btn btn--white">Book now!</a>
+                                    <a href="#popup" class="btn btn--white">Book now!</a>
                                 </div>
                             </div>
                         </div>
@@ -204,7 +204,7 @@
                                         <p class="card__price-only">Only</p>
                                         <p class="card__price-value">£897</p>
                                     </div>
-                                    <a href="#" class="btn btn--white">Book now!</a>
+                                    <a href="#popup" class="btn btn--white">Book now!</a>
                                 </div>
                             </div>
                         </div>
@@ -217,7 +217,7 @@
                 </div>
             </section>
 
-            <section class="section-stories">
+            <section class="section-stories" id="stories">
                 <div class="bg-video">
                     <video class="bg-video__content" autoplay muted loop>
                         <source src="img/video.mp4" type="video/mp4">
@@ -261,7 +261,7 @@
                 </div>
             </section>
 
-            <section class="section-book">
+            <section class="section-book" id="book">
                 <div class="row">
                     <div class="book">
                         <div class="book__form">
@@ -313,10 +313,10 @@
                 <div class="col-2-of-3">
                     <div class="footer__navigation">
                         <ul class="footer__list">
-                            <li class="footer__item"><a href="#" class="footer__link">About</a></li>
-                            <li class="footer__item"><a href="#" class="footer__link">Services</a></li>
-                            <li class="footer__item"><a href="#" class="footer__link">Testimonials</a></li>
-                            <li class="footer__item"><a href="#" class="footer__link">Contact Us</a></li>
+                            <li class="footer__item"><a href="#about" class="footer__link">About</a></li>
+                            <li class="footer__item"><a href="#tours" class="footer__link">Services</a></li>
+                            <li class="footer__item"><a href="#stories" class="footer__link">Testimonials</a></li>
+                            <li class="footer__item"><a href="#book" class="footer__link">Contact Us</a></li>
                             <li class="footer__item"><a href="#" class="footer__link">Privacy Policy</a></li>
                             <li class="footer__item"><a href="#" class="footer__link">Terms</a></li>
                         </ul>
@@ -329,6 +329,22 @@
                 </div>
             </div>
         </footer>
+
+        <div class="popup" id="popup">
+            <div class="popup__content">
+                <div class="popup__left">
+                    <img src="img/nat-8.jpg" alt="Tour photo" class="popup__img">
+                    <img src="img/nat-9.jpg" alt="Tour photo" class="popup__img">
+                </div>
+                <div class="popup__right">
+                    <a href="#section-tours" class="popup__close">&times;</a>
+                    <h2 class="heading-secondary u-margin-bottom-small">Start booking now</h2>
+                    <h3 class="heading-tertiary u-margin-bottom-small">Important &ndash; Please read these terms before booking.</h3>
+                    <p class="popup__text u-margin-bottom-medium">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas molestias cum veniam sunt voluptatum. Corporis odit natus molestiae distinctio eum soluta, odio libero vero non esse quos exercitationem expedita? Delectus?</p>
+                    <a href="#" class="btn btn--primary">Book now</a>
+                </div>
+            </div>
+        </div>
         <!-- <section class="grid-test">
             <div class="row">
                 <div class="col-1-of-2">
